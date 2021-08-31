@@ -17,5 +17,3 @@ use App\Http\Controllers\Api\CategoriesController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('get-main-categories', [CategoriesController::class, 'index']);
